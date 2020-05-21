@@ -1,12 +1,35 @@
-body, main {
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(to bottom right, #214C61, #61214C);
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #214C61, #61214C);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .looking {
-  width: 1000px;
-  height: 400px;
+  width: 400px;
+  height: 100px;
   margin: 0 auto;
+  text-align: center;
+  color: lavender;
+  background: #2E0F15;
+  display: table;
+  font-size: 22px;
+  font-family: OCR A Std, monospace;
+  border-radius: 15px 50px;
+}
+
+.seeing {
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
 }
