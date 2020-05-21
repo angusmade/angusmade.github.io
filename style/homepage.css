@@ -1,0 +1,12 @@
+body, main {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, #214C61, #61214C);
+}
+
+.looking {
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
