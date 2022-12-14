@@ -41,11 +41,11 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #00008b;
   opacity: 20%;
+ /* background-color: aliceblue;*/
   right: 0;
   bottom: 0;
   z-index: 2;
   cursor: pointer;
-  background-image: url("https://tenor.com/view/rain-transparent-gif-11002658");
+  background-image: url("rain.png");
 }
